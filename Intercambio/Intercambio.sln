@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercambio", "Intercambio\Intercambio.csproj", "{5454DD3B-9F06-4224-AF0C-A16F975E9172}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{291B1403-0A4D-4BE3-A13E-55C8E59A2F02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{88C6C8B8-52D5-488B-AE94-1DE0FB9179F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{138F9331-D044-44B5-813A-B8212A4EF7E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{198D6651-8660-4A83-ABCE-1582F4F1F357}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{26EE67F0-756C-4CF1-8393-E23BED9B4949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercambio.Domain", "Intercambio.Domain\Intercambio.Domain.csproj", "{3ED5313E-2E80-4A71-8B22-98296821D928}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5454DD3B-9F06-4224-AF0C-A16F975E9172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5454DD3B-9F06-4224-AF0C-A16F975E9172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5454DD3B-9F06-4224-AF0C-A16F975E9172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5454DD3B-9F06-4224-AF0C-A16F975E9172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED5313E-2E80-4A71-8B22-98296821D928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED5313E-2E80-4A71-8B22-98296821D928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED5313E-2E80-4A71-8B22-98296821D928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED5313E-2E80-4A71-8B22-98296821D928}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{198D6651-8660-4A83-ABCE-1582F4F1F357} = {138F9331-D044-44B5-813A-B8212A4EF7E8}
+		{3ED5313E-2E80-4A71-8B22-98296821D928} = {88C6C8B8-52D5-488B-AE94-1DE0FB9179F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {120DF93D-4253-4198-8333-F7E929B29636}
+	EndGlobalSection
+EndGlobal
