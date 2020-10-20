@@ -86,6 +86,7 @@
             this.Name = "frmMenu";
             this.Text = "Sistema de Controle de Intercambio";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmMenu_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

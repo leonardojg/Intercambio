@@ -22,5 +22,10 @@ namespace Intercambio
             frmSucursal frm = new frmSucursal();
             frm.Show();
         }
+
+        private void frmMenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

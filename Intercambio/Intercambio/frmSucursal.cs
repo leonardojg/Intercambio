@@ -121,7 +121,7 @@ namespace Intercambio
 
            
             cmbCidade.DataSource = lstCidade.Where(x => x.EstadoId == idEstado).ToList();
-            cmbCidade.Items.Insert(2, "Selecione...");
+            //cmbCidade.Items.Insert(2, "Selecione...");
             cmbCidade.DisplayMember = "Descricao";
             cmbCidade.ValueMember = "Id";
             cmbCidade.SelectedIndex = 0;
